@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(162, 118, 203);
+    background-image: url("https://images.unsplash.com/photo-1685856898185-57eb303fd776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+    background-position: center;
+}   
+.main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.navbar .items{
+    display: flex;
+    justify-content: center;
+}
+
+.items li{
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 1rem;
+    font-size: 2.2rem;
+    color:whitesmoke;
+}
+
+section{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 25vw;
+    background-color: aliceblue;
+    border-radius: 10px;
+    }
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+label{
+    margin: 0.7rem; 
+    font-size: 20px;
+    font-weight: 20px;
+}
+.submit button{
+    margin-top: 20px;
+    padding: 7px ;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
